@@ -21,16 +21,7 @@
     padding: 0, 2px;
     color: #ffcd1c;
 }
-.animateLogo {
-    transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -ms-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-}
-.animateLogo:hover {
-    font-size: 40px;
-}
+
 .animateIcon {
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
