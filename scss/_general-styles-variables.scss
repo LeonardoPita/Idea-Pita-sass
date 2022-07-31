@@ -1,0 +1,97 @@
+/**************************GENERAL STYLES****************************/
+h1 {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+img {
+    width: 100%;
+}
+
+$background1: black;
+$background2: #373a41;
+$fontColor1: #ffcd1c;
+$fontColor2: white;
+$space: 100px;
+
+.background1 {
+    background-color: $background1;
+}
+.background2 {
+    background-color: $background2;
+}
+
+.fontColor1 {
+    color: $fontColor1;
+}
+
+.fontColor2 {
+    color: $fontColor2;
+}
+
+.flex {
+    display: flex;
+    max-width: 98%;
+}
+
+.wraper {
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 0px 20px;
+}
+
+.active {
+    color: #ffcd1c;
+}
+
+.title {
+    font-size: 45px;
+    span {
+        font-size: 45px;
+    }
+}
+@media (min-width: 768px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, auto);
+        gap: 20px;
+        grid-template-areas:
+            "cell1 cell2"
+            "cell3 cell4"
+            "cell5 cell6";
+    }
+
+    .cell1 {
+        grid-area: cell1;
+    }
+
+    .cell2 {
+        grid-area: cell2;
+    }
+
+    .cell3 {
+        grid-area: cell3;
+    }
+
+    .cell4 {
+        grid-area: cell4;
+    }
+
+    .cell5 {
+        grid-area: cell5;
+    }
+
+    .cell6 {
+        grid-area: cell6;
+    }
+}

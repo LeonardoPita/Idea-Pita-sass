@@ -1,0 +1,18 @@
+/**************************HOME****************************/
+.content {
+    padding-top: $space;
+}
+
+.last {
+    padding-bottom: $space;
+}
+
+@media (min-width: 768px) {
+        .homeText {
+        margin-top: 30%;
+    }
+
+    .homeText2 {
+        margin-top: 10%;
+    }
+}

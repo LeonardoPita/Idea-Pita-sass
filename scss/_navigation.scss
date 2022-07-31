@@ -1,0 +1,29 @@
+/**************************NAVIGATION****************************/
+.active {
+    color: $fontColor1;
+}
+
+.nav-link {
+    color: $fontColor2;
+}
+
+.current {
+    color: $fontColor1;
+}
+
+.current:hover {
+    color: $fontColor1;
+}
+
+.navbar-collapse {
+    justify-content: end;
+}
+
+.navbar-toggler {
+    border: transparent;
+    color: transparent;
+}
+
+.navbar-toggler-icon {
+    background-image: url(../assets/navButton.png);
+}
